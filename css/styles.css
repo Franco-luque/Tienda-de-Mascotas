@@ -63,3 +63,57 @@ h1 span {
     font-size: 13px;
     font-weight: 400;
 }
+
+/* .inicio {
+    display: flex;
+    justify-content: center;
+} */
+
+.inicio {
+    display: flex;
+    background-image: url("../images/bowl-and-pet-daities-on-green-background 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.inicio .container h2 {
+    background-color: white;
+    color: #3C2313;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inicio .container p {
+    color: #3C2313;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn-comederos {
+    background-color: #F0A83E;
+    color: white;
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-comederos:hover {
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
