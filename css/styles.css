@@ -296,3 +296,10 @@ form .contenedor-btns {
 .contacto>.logo span {
     color: #ffffff;
 }
+
+footer>p {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+}
