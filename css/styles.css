@@ -64,7 +64,7 @@ h1 span {
 }
 
 .nav-bar ul li a {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   padding: 1rem 0.5rem;
   text-decoration: none;
@@ -141,9 +141,18 @@ h1 span {
 .productos ul {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 5rem;
+  margin-bottom: 7vh;
+}
+
+.productos ul li a {
+  text-decoration: none;
   color: #3c2313;
-  margin-bottom: 50px;
+}
+
+.productos ul li a:hover {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .articulos {
@@ -159,7 +168,7 @@ h1 span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 .articulo p {
