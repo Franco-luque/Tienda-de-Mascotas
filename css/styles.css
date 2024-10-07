@@ -280,16 +280,17 @@ form .contenedor-btns {
 
 .contacto {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #3c2313;
   color: #ffffff;
-  padding: 25px 75px;
+  padding: 2rem 5rem;
 }
 
 .contacto > .container-contactos {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 2rem;
 }
 
 .container-contactos .pin {
@@ -300,12 +301,11 @@ form .contenedor-btns {
 .container-contactos .texto-pines {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  margin-left: 2rem;
 }
 
 .texto-pines p {
   color: #8a8787;
-  font-size: 10px;
   font-weight: 400;
 }
 
@@ -321,5 +321,4 @@ footer > p {
   background-color: #222222;
   color: #ffffff;
   text-align: center;
-  font-size: 10px;
 }
