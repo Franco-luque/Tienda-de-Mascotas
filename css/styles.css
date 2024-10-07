@@ -264,7 +264,7 @@ form .contenedor-btns {
 
 .novedades form {
   display: flex;
-  gap: 1rem;
+  gap: 1vw;
 }
 
 .novedades input {
@@ -382,5 +382,9 @@ footer > p {
     flex-direction: column-reverse;
     gap: 1rem;
     align-items: center;
+  }
+
+  .novedades h2 {
+    text-align: center;
   }
 }
