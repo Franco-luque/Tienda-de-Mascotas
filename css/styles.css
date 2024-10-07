@@ -76,6 +76,10 @@ h1 span {
   font-weight: 700;
 }
 
+.nav-bar .icono-menu {
+  display: none;
+}
+
 .inicio {
   display: flex;
   background-image: url("../images/bowl-and-pet-daities-on-green-background 1.png");
@@ -98,6 +102,7 @@ h1 span {
 
 .inicio .container h2 {
   background-color: white;
+  text-align: center;
   color: #3c2313;
   font-size: 2rem;
   font-weight: 400;
@@ -135,13 +140,14 @@ h1 span {
   color: #3c2313;
   font-size: 3rem;
   font-weight: 700;
-  margin: 0.7rem 0;
+  margin: 1rem 0;
+  text-align: center;
 }
 
 .productos ul {
   display: flex;
   list-style: none;
-  gap: 5rem;
+  gap: 5vw;
   margin-bottom: 7vh;
 }
 
@@ -201,7 +207,7 @@ h1 span {
 }
 
 .formulario input {
-  width: 25vw;
+  width: 400px;
   background-color: #3c2313;
   color: #ffffff;
   border: none;
@@ -222,7 +228,7 @@ form .contenedor-btns {
   font-size: 1rem;
   font-weight: 400;
   padding: 0.5rem 1rem;
-  width: 10vw;
+  width: 150px;
   height: 5vh;
   color: #ffffff;
 }
@@ -252,15 +258,20 @@ form .contenedor-btns {
 }
 
 .novedades h2 {
-  flex: 1;
+  flex-grow: 1;
   margin-left: 0.7rem;
+}
+
+.novedades form {
+  display: flex;
+  gap: 1rem;
 }
 
 .novedades input {
   background-color: #ffffff;
   border: none;
   border-radius: 1rem;
-  width: 20vw;
+  width: 200px;
   padding: 1rem 0.7rem;
 }
 
@@ -321,4 +332,55 @@ footer > p {
   background-color: #222222;
   color: #ffffff;
   text-align: center;
+}
+
+@media (max-width: 800px) {
+  .novedades-idioma {
+    display: none;
+  }
+
+  .nav-bar ul {
+    display: none;
+  }
+
+  .nav-bar .icono-menu {
+    display: block;
+  }
+
+  .inicio {
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .inicio .container p {
+    color: #ffffff;
+  }
+
+  .formulario input {
+    width: 50vw;
+  }
+
+  .formulario button {
+    width: 25vw;
+  }
+
+  .novedades {
+    justify-content: center;
+  }
+
+  .novedades h2 {
+    flex-grow: 0;
+  }
+
+  .novedades input {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacto {
+    flex-direction: column-reverse;
+    gap: 1rem;
+    align-items: center;
+  }
 }
